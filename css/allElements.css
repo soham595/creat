@@ -1,0 +1,415 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    margin-top: 0 !important;
+    position: absolute!important;
+    background-color: rgba(0, 0, 0, 0.1);
+    min-width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgba(221, 221, 221, 0);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(62, 142, 65, 0);
+}
+
+a:not([href]):not([tabindex]) {
+    color: white!important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00D646;
+}
+
+a  {
+    color: #ffffff;
+    text-decoration: none;
+    font: 2rem Raleway;
+    margin: 0 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.mid a  {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: 1.3rem Raleway;
+    padding: 12px 35px;
+    position: relative;
+}
+
+.navcust
+{
+    color: rgb(207, 207, 207);
+    background: rgba(43, 43, 43, 0);
+}
+
+.navbar {
+    position: relative;
+    z-index: 10;
+    transform-style: preserve-3d;
+}
+
+.navmar {
+    margin-top: 8vh;
+}
+
+#ntopnav a:hover
+{
+    margin-left: -2rem;
+    font-size: 1.7rem;
+    color: #00D646;
+}
+
+div.borderYtoX a:before, div.borderYtoX a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 60%;
+    width: 2px;
+    content: '';
+    background: rgba(0, 214, 17, 0.6);
+    transition: all 1s;
+}
+
+div.borderYtoX a:before
+{
+    left: 0;
+    top: 10px;
+}
+
+div.borderYtoX a:after
+{
+    right: 0;
+    bottom: 8px;
+}
+
+div.borderYtoX .dropdown-menu a:after
+{
+    right: 15px;
+}
+
+div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+div.borderYtoX .dropdown-menu a:hover:before, div.borderYtoX .dropdown-menu a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 92%;
+}
+
+.mid {
+    margin: 0 auto;
+}
+
+.mid a:not([href]):not([tabindex]):hover {
+    margin-left: -2rem !important;
+    font-size: 1.7rem !important;
+    color: #00D646!important;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: -8vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.sticky .dropdown-menu {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.sticky .mid {
+    margin-right: 1rem;
+}
+
+.sticky .mid a {
+    font: 1.2rem Raleway;
+}
+
+.sticky #login-button a:hover {
+    margin-left: -2rem;
+    font-size: 2rem !important;
+}
+
+.sticky + .container {
+    margin-top: 16vh;
+}
+
+.card {
+    margin-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 1px 2px 10px rgba(0, 214, 17, 0.6);
+    transform-style: preserve-3d;
+}
+
+.professional-container {
+    background-image: url("../images/bghome6.jpg");
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.pro-inner {
+    background-color: rgba(73, 181, 255, 0.15);
+}
+
+.card-header {
+    box-shadow: 0px 1px 1px rgba(0, 214, 17, 0.6);
+    color: #a5a5a5;
+}
+
+.card-header h4:hover {
+    transform: translateZ(20px)
+}
+
+.content {
+    margin-top: 6.5vh;
+    position: relative;
+    z-index: 1;
+    color: whitesmoke;
+}
+
+.container-custom {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 20%;
+}
+
+.container {
+    padding-top: 2%;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.68);
+    color: lightgray;
+}
+
+.about-container {
+    background-image: url("../images/bghome6.jpg");
+    background-position: left;
+    background-attachment: fixed;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#about {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: navajowhite;
+    min-height: 30vh;
+    padding-top: 2%;
+}
+
+.container-fluid {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fluid-custom {
+    margin-top: 4rem;
+}
+
+.content {
+    margin-bottom: 0;
+}
+
+.main-content {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 2%;
+}
+
+.top-margin {
+    margin-top: 2rem;
+}
+
+.img-gol {
+    border-radius: 50%;
+}
+
+.names-margin {
+    margin-top: 15%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#contact {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.carousel-container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.entry-container {
+    min-height: 65vh;
+}
+
+.entryRow {
+    margin-top: 15vh;
+}
+
+.linkto:hover {
+    cursor: pointer;
+}
+
+.link-font {
+    margin-left: 10rem;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.9!important;
+}
+
+#main {
+    min-height: 110vh;
+    padding-bottom: 0;
+    background-color: rgba(73, 181, 255, 0.15);
+}
+
+.contentMain {
+    margin-top: 20vh;
+}
+
+p {
+    color: navajowhite!important;
+    font-weight: lighter;
+}
+
+.footer-text {
+    color: lightgray;
+}
+
+span {
+    color: navajowhite;
+}
+
+h1 {
+    color: #6e706e;
+}
+
+.site-info {
+    background-color: #000000;
+    min-height: 37vh;
+}
+
+#output-nav {
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 0;
+    position: fixed;
+}
+
+#output-nav .dropdown-menu {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.btn-none {
+    background: transparent;
+    border: 0!important;
+    box-shadow: 0px 0px 0px 0px!important;
+}
+
+#login-button a:not([href]):not([tabindex]):hover {
+    margin-left: -2rem;
+    font-size: 2rem !important;
+}
+
+#login-button a {
+    font-size: 1.5rem !important;
+}
+
+@media (max-width: 991px) {
+    .navcust {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        margin: 0;
+        -webkit-transition: .3s;
+        transition: .3s;
+        font: 4rem Raleway;
+    }
+
+    #login-button a {
+        font-size: 2.3rem !important;
+    }
+
+    .navbar a {
+        font-size: 2rem;
+    }
+
+    .mid {
+        margin: 0;
+        width: 50%;
+        text-align: center;
+    }
+
+    .mid .dropdown-menu a {
+        text-align: center !important;
+    }
+
+    .navbar-brand a {
+        font-size: 4rem;
+    }
+
+    .dropdown-menu {
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    .sticky .mid {
+        margin: 0;
+        width: 100%;
+        text-align: right !important;
+    }
+
+    .sticky .mid a {
+        font: 2rem Raleway;
+    }
+
+    .navbar-toggler {
+        font-size: 3rem;
+        margin-left: 30vw;
+    }
+
+    .btnBottom {
+        margin-top: 35vh;
+    }
+
+}
